@@ -34,4 +34,26 @@ class Bird {
       set circumference(newCircumference){
           this.radius = newCircumference/Math.PI/2
       }
+
+      test(){
+        return this.radius ** 3
+      }
+    
+}
+
+class Fish {
+  constructor(name, age) {
+      this.name = name;
+      this.age = age;
   }
+
+  sayName() {
+      return `Hi my name is ${this.name}`;
+  }
+
+  
+}
+
+let gooppy = new Fish("goo", 1);
+
+class Dog {}
